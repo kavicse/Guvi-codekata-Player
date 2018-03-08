@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-  int a[10][10],r,c,i,j,sum=0,sum1=0,pro;
+  int m[10][10],r,c,i,j,sum=0,sum1=0,product;
   printf("\nEnter rows");
   scanf("%d",&r);
   printf("\nEnter columns");
@@ -11,7 +11,7 @@ void main()
   {
     for(j=0;j<c;j++)
     {
-      scanf("%d",&a[i][j]);
+      scanf("%d",&m[i][j]);
     }
   }
   printf("\nMatrix");
@@ -20,7 +20,7 @@ void main()
   {
     for(j=0;j<c;j++)
     {
-      printf("%d",a[i][j]);
+      printf("%d",m[i][j]);
       printf("\t");
     }
     printf("\n");
@@ -39,9 +39,9 @@ void main()
   }
   for(i=0,j=c-1;i<r,j>=0;i++,j--)
   {
-    sum1=sum1+a[i][j];
+    sum1=sum1+m[i][j];
   }
-  pro=sum*sum1;
-  printf("Result:%d",pro);
+  product=sum*sum1;
+  printf("Result:%d",product);
   
 }
