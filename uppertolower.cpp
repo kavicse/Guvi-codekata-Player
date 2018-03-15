@@ -5,7 +5,7 @@ int main() {
   char a[100],temp;
   int i,n;
   cout<<"\nEnter the string";
-  cin>>a;
+  cin.get(a,200);
   n=strlen(a);
   for(i=0;i<n;i++)
   {
