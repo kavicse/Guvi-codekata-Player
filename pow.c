@@ -2,7 +2,8 @@
 #include<math.h>
 void main()
 {
-  int a,b,c,d,A,B,C,e;
+  int a,b,d,A,B,e;
+  long C,c;
   printf("\nEnter A:");
   scanf("%d",&A);
   printf("\nEnter B:");
