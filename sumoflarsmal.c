@@ -23,7 +23,7 @@ void main()
   }
   printf("\nSmallest:%d",a[0]);
   printf("\nLargest:%d",a[n-1]);
-  b=a[0]+a[n-1];
-  printf("\nsum of largest and largest:%d",b);
+  b=a[0]-a[n-1];
+  printf("\nDifference of largest and largest:%d",b);
   
 }
